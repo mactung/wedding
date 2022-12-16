@@ -4117,7 +4117,7 @@ wpo-hero-slider-s3
 --------------------------------------------*/
 .static-hero-s3,
 .static-hero-s4 {
-  height: 843px;
+  height: 100vh;
   background: url(../images/slider/slide-10.jpg) no-repeat center center;
   background-size: cover;
   display: flex;
