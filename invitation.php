@@ -56,21 +56,24 @@
                                         <p>
                                         </p>
                                         <h2>Mac Tung & Le Thuy</h2>
-                                        <p>Trân trọng kính mời
-                                            <?php
+                                        <span>Trân trọng kính mời
+
+                                        </span>
+                                        <p style="font-size: 30px;">
+                                        <?php
                                             if (isset($_GET['name'])) {
                                                 echo ($_GET['name']);
                                             } else {
-                                                echo ("bạn");
+                                                echo ("Bạn");
                                             }
-                                            ?>
+                                        ?>
                                         </p>
-                                        <span>Tới tham dự lễ cưới của chúng tôi <br>
+                                        <span>Tới tham dự lễ thành hôn cùng gia đình chúng tôi <br>
                                         </span>
                                         <ul>
-                                            <li>11:00 giờ, ngày 07/01/2023
+                                            <li>Lúc 11:00 giờ, ngày 07/01/2023
                                             </li>
-                                            <li>Tầng 3, Trung tâm tiệc cưới Mipec Palace, 229 Tây Sơn, Đống Đa, Hà Nội</li>
+                                            <li>Tại Tầng 3, Trung tâm tiệc cưới Mipec Palace, 229 Tây Sơn, Đống Đa, Hà Nội</li>
 
                                             <li> <a href="/">Trang web</a></li>
                                         </ul>
