@@ -13,7 +13,7 @@
     <link href="assets/css/flaticon.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
     <link href="assets/css/owl.theme.css" rel="stylesheet">
     <link href="assets/css/slick.css" rel="stylesheet">
@@ -55,18 +55,18 @@
                                     <div class="wpo-event-text">
                                         <p>
                                         </p>
-                                        <h2>Mac Tung & Le Thuy</h2>
+                                        <h2 class="animate__animated animate__bounce">Mac Tung & Le Thuy</h2>
                                         <span>Trân trọng kính mời
 
                                         </span>
-                                        <p style="font-size: 30px;">
-                                        <?php
+                                        <p class="animate__animated animate__swing" style=" font-size: 30px;">
+                                            <?php
                                             if (isset($_GET['name'])) {
                                                 echo ($_GET['name']);
                                             } else {
                                                 echo ("Bạn");
                                             }
-                                        ?>
+                                            ?>
                                         </p>
                                         <span>Tới tham dự lễ thành hôn cùng gia đình chúng tôi <br>
                                         </span>
@@ -74,7 +74,7 @@
                                             <li>Lúc 11:00 giờ, ngày 07/01/2023
                                             </li>
                                             <li>Tại Tầng 3, Trung tâm tiệc cưới Mipec Palace, 229 Tây Sơn, Đống Đa, Hà Nội</li>
-
+                                            <li> <a href="https://goo.gl/maps/Z1nGA6VfY8RLYQiw8">Nơi tổ chức tiệc cưới</a></li>
                                             <li> <a href="/">Trang web</a></li>
                                         </ul>
                                     </div>
