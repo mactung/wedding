@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-    <title>Thiệp cười online - Mạc Tùng & Lệ Thủy</title>
+    <title>Thiệp cưới online - Mạc Tùng & Lệ Thủy</title>
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
@@ -56,9 +56,7 @@
                                         <p>
                                         </p>
                                         <h2 class="animate__animated animate__bounce">Mac Tung & Le Thuy</h2>
-                                        <span>Trân trọng kính mời
-
-                                        </span>
+                                        <span>Trân trọng kính mời</span>
                                         <p class="animate__animated animate__swing" style=" font-size: 30px;">
                                             <?php
                                             if (isset($_GET['name'])) {
@@ -73,7 +71,8 @@
                                         <ul>
                                             <li>Lúc 11:00 giờ, ngày 07/01/2023
                                             </li>
-                                            <li>Tại Tầng 3, Trung tâm tiệc cưới Mipec Palace, 229 Tây Sơn, Đống Đa, Hà Nội</li>
+                                            <li>Tại Tầng 3, Trung tâm tiệc cưới Mipec Palace</li>
+                                            <li>229 Tây Sơn, Đống Đa, Hà Nội</li>
                                             <li> <a href="https://goo.gl/maps/Z1nGA6VfY8RLYQiw8">Nơi tổ chức tiệc cưới</a></li>
                                             <li> <a href="/">Trang web</a></li>
                                         </ul>
