@@ -25,82 +25,46 @@
     <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
-<?php 
-    function getImageCdn ($url, $width = 0, $height = 0, $fitIn = true, $webp = false, $filters = []) {
-        $cdnUrl = '';
-        if (!$url) {
-            $url = "/images/logo.png";
-            $fitIn = true;
-        }
-
-        if (strpos($url, 'http') !== 0) {
-            if (strpos($url, '//') !== 0) {
-                if (strpos($url, '/') !== 0) {
-                    $url = 'https://' . $url;
-                } else {
-                    $url = $_SERVER['SERVER_NAME'] . $url;
-                }
-            } else {
-                $url = 'https:' . $url;
-            }
-        }
-        $zoomIn = '';
-        if (isset($filters['zoomIn'])) {
-            $zoomIn = $filters['zoomIn'];
-            unset($filters['zoomIn']);
-        }
-        if (substr($url, -3) == 'svg') {
-            return $url;
-        }
-        if (substr($url, 0, 4) == 'http') {
-            $url = str_replace('https://', '', $url);
-            $url = str_replace('http://', '', $url);
-        }
-        if (str_contains($url, '?')) {
-            $url = urlencode($url);
-        }
-        
-        $webp = false;
-
-        $baseCdnUrl = $cdnUrl . '/';
-        if ($zoomIn !== '') {
-            $baseCdnUrl = $cdnUrl . $zoomIn . '/';
-        }
-        $fitIn = ($fitIn && $width && $height);
-
-        if ($fitIn) {
-            $baseCdnUrl .= "fit-in/";
-        }
-        // $fitIn = false;
-        if (preg_match('/gdn\.printerval\.com/i', $baseCdnUrl)) {
-            $fitIn = false;
-        }
-        if ($width || $height) {
-            $baseCdnUrl .= $width . "x" . $height . "/";
-        }
-        if ($fitIn || $webp || count($filters) > 0) {
-            $baseCdnUrl .= "filters";
-            if (count($filters) > 0) {
-                $filterStr = '';
-                foreach ($filters as $key => $val) {
-                    $filterStr = ":$key($val)";
-                }
-                $baseCdnUrl .= $filterStr;
-            }
-        }
-        if ($fitIn) {
-            $baseCdnUrl .= ":fill(fff)";
-        }
-        if ($webp) {
-            $baseCdnUrl .= ":format(webp)";
-        }
-        if ($fitIn || $webp || count($filters) > 0) {
-            $baseCdnUrl .= "/";
-        }
-        $baseCdnUrl .= $url;
-        return $baseCdnUrl;
+<?php
+function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false, $filters = [])
+{
+    $cdnUrl = $_SERVER['SERVER_NAME'] === 'mactung.com' ? 'https://truyenaz.net/cdn/' : null;
+    if (!$cdnUrl) {
+        return $url;
     }
+    if (!$url) {
+        $url = "/images/logo.png";
+        $fitIn = true;
+    }
+    if (strpos($url, 'http') !== 0) {
+        if (strpos($url, '//') !== 0) {
+            if (strpos($url, '/') !== 0) {
+                $url = 'https://' . $url;
+            } else {
+                $url = $_SERVER['SERVER_NAME'] . $url;
+            }
+        } else {
+            $url = 'https:' . $url;
+        }
+    }
+    $zoomIn = '';
+
+    if (substr($url, -3) == 'svg') {
+        return $url;
+    }
+    if (substr($url, 0, 4) == 'http') {
+        $url = str_replace('https://', '', $url);
+        $url = str_replace('http://', '', $url);
+    }
+    if (str_contains($url, '?')) {
+        $url = urlencode($url);
+    }
+    $baseCdnUrl = $cdnUrl . '/';
+    $baseCdnUrl .= $url;
+    return $baseCdnUrl;
+}
 ?>
+
 <body>
 
     <!-- start page-wrapper -->
@@ -133,22 +97,22 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-1.jpg">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-2.jpg">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-3.jpg">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="assets/images/slider/slide-4.jpg">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
                     </div>
@@ -367,8 +331,8 @@
                             <div class="portfolio-grids gallery-container clearfix">
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="assets/images/portfolio/1.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="assets/images/portfolio/1.jpg" alt class="img img-responsive">
+                                        <a href="<?php echo (getImageCdn('assets/images/portfolio/1.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/portfolio/1.jpg')) ?>" alt class=" img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -508,7 +472,7 @@
                 <div class="row">
                     <div class="wpo-section-title">
                         <div class="section-title-img">
-                            <img src="assets/images/section-title2.png" alt="">
+                            <img src="<?php getImageCdn('assets/images/section-title2.png') ?>" alt="">
                         </div>
                         <h2>Các sự kiện</h2>
                     </div>
