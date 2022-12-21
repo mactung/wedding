@@ -26,7 +26,7 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <?php
-function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false, $filters = [])
+function getImageCdn($url)
 {
     $cdnUrl = $_SERVER['SERVER_NAME'] === 'mactung.com' ? 'https://truyenaz.net/cdn' : null;
     if (!$cdnUrl) {
@@ -50,9 +50,6 @@ function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false
         $url = str_replace('https://', '', $url);
         $url = str_replace('http://', '', $url);
     }
-    if (str_contains($url, '?')) {
-        $url = urlencode($url);
-    }
     $baseCdnUrl = $cdnUrl . '/';
     $baseCdnUrl .= $url;
     return $baseCdnUrl;
@@ -71,7 +68,7 @@ function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                    <img src="assets/images/preloader.png" alt="">
+                    <img src="<?php echo(getImageCdn('assets/images/preloader.png')); ?>" alt="">
                 </div>
             </div>
         </div>
@@ -91,22 +88,22 @@ function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo(getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo(getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo(getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
 
                         <div class="swiper-slide">
-                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo(getImageCdn('assets/images/slider/slide-1.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
                     </div>
@@ -325,8 +322,8 @@ function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false
                             <div class="portfolio-grids gallery-container clearfix">
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="<?php echo (getImageCdn('assets/images/portfolio/1.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="<?php echo (getImageCdn('assets/images/portfolio/1.jpg')) ?>" alt class=" img img-responsive">
+                                        <a href="<?php echo(getImageCdn('assets/images/portfolio/1.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo(getImageCdn('assets/images/portfolio/1.jpg')) ?>" alt class=" img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
