@@ -28,13 +28,9 @@
 <?php
 function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false, $filters = [])
 {
-    $cdnUrl = $_SERVER['SERVER_NAME'] === 'mactung.com' ? 'https://truyenaz.net/cdn/' : null;
+    $cdnUrl = $_SERVER['SERVER_NAME'] === 'mactung.com' ? 'https://truyenaz.net/cdn' : null;
     if (!$cdnUrl) {
         return $url;
-    }
-    if (!$url) {
-        $url = "/images/logo.png";
-        $fitIn = true;
     }
     if (strpos($url, 'http') !== 0) {
         if (strpos($url, '//') !== 0) {
@@ -47,8 +43,6 @@ function getImageCdn($url, $width = 0, $height = 0, $fitIn = true, $webp = false
             $url = 'https:' . $url;
         }
     }
-    $zoomIn = '';
-
     if (substr($url, -3) == 'svg') {
         return $url;
     }
