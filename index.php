@@ -362,8 +362,8 @@ function getImageCdn($url)
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="<?php echo (getImageCdn('assets/images/G1770730.JPG')) ?>" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="<?php echo (getImageCdn('assets/images/G1770730.JPG')) ?>" alt class="img img-responsive">
+                                        <a href="<?php echo (getImageCdn('assets/images/G1770723.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/G1770723.jpg')) ?>" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
@@ -432,8 +432,8 @@ function getImageCdn($url)
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="<?php echo (getImageCdn('assets/images/Film-20.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="<?php echo (getImageCdn('assets/images/Film-20.jpg')) ?>" alt class="img img-responsive">
+                                        <a href="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
