@@ -52,7 +52,7 @@ function getImageCdn($url)
     }
     $baseCdnUrl = $cdnUrl . '/';
     $baseCdnUrl .= $url;
-    return $baseCdnUrl;
+    return $baseCdnUrl . '?v=1';
 }
 ?>
 
@@ -420,16 +420,7 @@ function getImageCdn($url)
                                         </a>
                                     </div>
                                 </div>
-                                <div class="grid">
-                                    <div class="img-holder">
-                                        <a href="<?php echo (getImageCdn('assets/images/G1770692.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="<?php echo (getImageCdn('assets/images/G1770692.jpg')) ?>" alt class="img img-responsive">
-                                            <div class="hover-content">
-                                                <i class="ti-plus"></i>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
+                                
                                 <div class="grid">
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
