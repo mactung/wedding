@@ -143,7 +143,7 @@ function getImageCdn($url)
                                 <div class="col-lg-4">
                                     <div class="couple-item">
                                         <div class="couple-img">
-                                            <img src="assets/images/couple/2.jpg" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/1-1.jpg')) ?>" alt="">
                                         </div>
                                         <div class="couple-text">
                                             <h3>Mạc Trần Tùng</h3>
@@ -163,7 +163,7 @@ function getImageCdn($url)
                                 <div class="col-lg-4">
                                     <div class="couple-item">
                                         <div class="couple-img">
-                                            <img src="assets/images/couple/3.jpg" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/1-2.jpg')) ?>" alt="">
                                         </div>
                                         <div class="couple-text">
                                             <h3>Nguyễn Thị Lệ Thủy</h3>
@@ -420,7 +420,7 @@ function getImageCdn($url)
                                         </a>
                                     </div>
                                 </div>
-                                
+
                                 <div class="grid">
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
@@ -431,7 +431,36 @@ function getImageCdn($url)
                                         </a>
                                     </div>
                                 </div>
-
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="<?php echo (getImageCdn('assets/images/G1770749.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/G1770749.jpg')) ?>" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="<?php echo (getImageCdn('assets/images/G1770755.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/G1770755.jpg')) ?>" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="<?php echo (getImageCdn('assets/images/G1770737.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/G1770737.jpg')) ?>" alt class="img img-responsive">
+                                            <div class="hover-content">
+                                                <i class="ti-plus"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
