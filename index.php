@@ -392,8 +392,8 @@ function getImageCdn($url)
                                 </div>
                                 <div class="grid">
                                     <div class="img-holder">
-                                        <a href="<?php echo (getImageCdn('assets/images/L1002048.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
-                                            <img src="<?php echo (getImageCdn('assets/images/L1002048.jpg')) ?>" alt class="img img-responsive">
+                                        <a href="<?php echo (getImageCdn('assets/images/L1002048-1.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
+                                            <img src="<?php echo (getImageCdn('assets/images/L1002048-1.jpg')) ?>" alt class="img img-responsive">
                                             <div class="hover-content">
                                                 <i class="ti-plus"></i>
                                             </div>
