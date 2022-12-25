@@ -52,7 +52,7 @@ function getImageCdn($url)
     }
     $baseCdnUrl = $cdnUrl . '/';
     $baseCdnUrl .= $url;
-    return $baseCdnUrl . '?v=1';
+    return $baseCdnUrl . '?v=2';
 }
 ?>
 
