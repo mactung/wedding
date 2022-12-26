@@ -198,18 +198,16 @@ function getImageCdn($url)
                             <div class="tablinks">
                                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link active" id="Meet-tab" data-bs-toggle="tab" href="#Meet" role="tab" aria-controls="Meet" aria-selected="true">First Meet</a>
+                                        <a class="nav-link active" id="Meet-tab" data-bs-toggle="tab" href="#Meet" role="tab" aria-controls="Meet" aria-selected="true">Buổi gặp đầu tiên</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="Date-tab" data-bs-toggle="tab" href="#Date" role="tab" aria-controls="Date" aria-selected="false">First Date</a>
+                                        <a class="nav-link" id="Date-tab" data-bs-toggle="tab" href="#Date" role="tab" aria-controls="Date" aria-selected="false">Buổi hẹn đầu tiên</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="Proposal-tab" data-bs-toggle="tab" href="#Proposal" role="tab" aria-controls="Proposal" aria-selected="false">Marige
-                                            Proposal</a>
+                                        <a class="nav-link" id="Proposal-tab" data-bs-toggle="tab" href="#Proposal" role="tab" aria-controls="Proposal" aria-selected="false">Cầu hôn</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a class="nav-link" id="Engagement-tab" data-bs-toggle="tab" href="#Engagement" role="tab" aria-controls="Engagement" aria-selected="false">Our
-                                            Engagement</a>
+                                        <a class="nav-link" id="Engagement-tab" data-bs-toggle="tab" href="#Engagement" role="tab" aria-controls="Engagement" aria-selected="false">Kết hôn</a>
                                     </li>
                                 </ul>
                             </div>
@@ -223,8 +221,8 @@ function getImageCdn($url)
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/1.png" alt=""></span>
-                                                <h2>First Time We Meet</h2>
-                                                <span>Sep, 2010</span>
+                                                <h2>Lần đầu gặp gỡ</h2>
+                                                <span>Tháng 9, 2010</span>
                                                 <p>Tôi gặp em vào một chiều thu se se lạnh. Hôm ấy, tôi chép bài Hóa của em. Em được 8 còn tôi thì 9.</p>
                                                 <div class="border-shape">
                                                     <img src="<?php echo (getImageCdn('assets/images/story/shape.jpg')) ?>" alt="">
@@ -241,8 +239,8 @@ function getImageCdn($url)
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/2.png" alt=""></span>
-                                                <h2>First Date</h2>
-                                                <span>Mar ,2017</span>
+                                                <h2>Buổi hẹn đầu tiên</h2>
+                                                <span>Tháng 3 ,2017</span>
                                                 <p>Tôi mua được vé đi Festival, không ai đi với tôi nên tôi mời em đi.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
@@ -259,8 +257,8 @@ function getImageCdn($url)
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/3.png" alt=""></span>
-                                                <h2>Marige Proposal</h2>
-                                                <span>Sep 25,2021</span>
+                                                <h2>Cầu hôn</h2>
+                                                <span>Tháng 9 25,2021</span>
                                                 <p>Vào một ngày đầu thu, Em bảo em thích đồng hồ. Tôi lôi em vào Hoàng Hà mua 1 cái apple watch, thế là tôi cầu hôn với em.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
@@ -277,8 +275,8 @@ function getImageCdn($url)
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/4.png" alt=""></span>
-                                                <h2>Our Engagement</h2>
-                                                <span>Jan 07,2023</span>
+                                                <h2>Kết hôn</h2>
+                                                <span>Tháng 1 07,2023</span>
                                                 <p>Yêu lâu quá rồi nên cưới.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
