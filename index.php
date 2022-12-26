@@ -317,7 +317,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770445.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770445.jpg')) ?>" alt class=" img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/Film-31.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/Film-31.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -333,7 +333,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770692.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770692.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -341,7 +341,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770619.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770619.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -349,7 +349,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770723.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770723.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -357,7 +357,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770671.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770671.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -379,7 +379,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/Film-63.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/Film-63.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -387,7 +387,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/Film-71.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/Film-71.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -396,7 +396,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -404,7 +404,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770749.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770749.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -412,7 +412,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770755.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770755.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -420,7 +420,7 @@ function getImageCdn($url)
                                     <div class="img-holder">
                                         <a href="<?php echo (getImageCdn('assets/images/G1770737.jpg')) ?>" class="fancybox" data-fancybox-group="gall-1">
                                             <img src="<?php echo (getImageCdn('assets/images/G1770737.jpg')) ?>" alt class="img img-responsive">
-                                            
+
                                         </a>
                                     </div>
                                 </div>
@@ -497,7 +497,7 @@ function getImageCdn($url)
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-event-item">
                                 <div class="wpo-event-img">
-                                    <img src="<?php echo (getImageCdn('assets/images/event/1.jpg')) ?>" alt="">
+                                    <img src="<?php echo (getImageCdn('assets/images/event/3.jpg')) ?>" alt="">
                                 </div>
                                 <div class="wpo-event-text">
                                     <h2>Ăn hỏi</h2>
@@ -531,7 +531,7 @@ function getImageCdn($url)
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-event-item">
                                 <div class="wpo-event-img">
-                                    <img src="<?php echo (getImageCdn('assets/images/event/3.jpg')) ?>" alt="">
+                                    <img src="<?php echo (getImageCdn('assets/images/event/1.jpg')) ?>" alt="">
                                 </div>
                                 <div class="wpo-event-text">
                                     <h2>Tiệc cưới</h2>
