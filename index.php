@@ -514,7 +514,7 @@ function getImageCdn($url)
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-event-item">
                                 <div class="wpo-event-img">
-                                    <img src="<?php echo (getImageCdn('assets/images/event/2.jpg')) ?>" alt="">
+                                    <img src="<?php echo (getImageCdn('assets/images/320846435_2988930307919460_2749564314569954684_n-2.jpg')) ?>" alt="">
                                 </div>
                                 <div class="wpo-event-text">
                                     <h2>Lễ cưới</h2>
