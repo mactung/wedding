@@ -278,7 +278,7 @@ function getImageCdn($url)
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/4.png" alt=""></span>
                                                 <h2>Our Engagement</h2>
-                                                <span>Sep 15,2022</span>
+                                                <span>Jan 07,2023</span>
                                                 <p></p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
