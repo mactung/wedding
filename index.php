@@ -106,6 +106,10 @@ function getImageCdn($url)
                             <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/Film-63.jpg')) ?>">
                             </div> <!-- end slide-inner -->
                         </div> <!-- end swiper-slide -->
+                        <div class="swiper-slide">
+                            <div class="slide-inner slide-bg-image" data-background="<?php echo (getImageCdn('assets/images/23509259_1440756672644965_6063105737537806435_o.jpeg')) ?>">
+                            </div> <!-- end slide-inner -->
+                        </div> <!-- end swiper-slide -->
                     </div>
                     <!-- end swiper-wrapper -->
 
@@ -214,18 +218,16 @@ function getImageCdn($url)
                                 <div class="tab-pane in active" id="Meet">
                                     <div class="wpo-story-item">
                                         <div class="wpo-story-img">
-                                            <img src="assets/images/story/1.jpg" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/Film-7.jpg')) ?>" alt="">
                                         </div>
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/1.png" alt=""></span>
                                                 <h2>First Time We Meet</h2>
-                                                <span>Sep 2,2010</span>
-                                                <p>I must explain to you how all this mistaken idea of denouing pleasure
-                                                    and praising pain was born and I will give you com acount of
-                                                    system,the actual teach</p>
+                                                <span>Sep, 2010</span>
+                                                <p>Tôi gặp em vào một chiều thu se se lạnh. Hôm ấy, tôi chép bài Hóa của em. Em được 8 còn tôi thì 9.</p>
                                                 <div class="border-shape">
-                                                    <img src="assets/images/story/shape.jpg" alt="">
+                                                    <img src="<?php echo (getImageCdn('assets/images/story/shape.jpg')) ?>" alt="">
                                                 </div>
                                             </div>
                                         </div>
@@ -234,16 +236,14 @@ function getImageCdn($url)
                                 <div class="tab-pane fade" id="Date">
                                     <div class="wpo-story-item">
                                         <div class="wpo-story-img">
-                                            <img src="assets/images/story/2.jpg" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/IMG_0846.JPG')) ?>" alt="">
                                         </div>
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/2.png" alt=""></span>
                                                 <h2>First Date</h2>
-                                                <span>Dec 25,2022</span>
-                                                <p>I must explain to you how all this mistaken idea of denouing pleasure
-                                                    and praising pain was born and I will give you com acount of
-                                                    system,the actual teach</p>
+                                                <span>Mar ,2017</span>
+                                                <p></p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
@@ -254,16 +254,14 @@ function getImageCdn($url)
                                 <div class="tab-pane fade" id="Proposal">
                                     <div class="wpo-story-item">
                                         <div class="wpo-story-img">
-                                            <img src="assets/images/story/3.jpg" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/G1770589.jpg')) ?>" alt="">
                                         </div>
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/3.png" alt=""></span>
                                                 <h2>Marige Proposal</h2>
-                                                <span>Jan 05,2022</span>
-                                                <p>I must explain to you how all this mistaken idea of denouing pleasure
-                                                    and praising pain was born and I will give you com acount of
-                                                    system,the actual teach</p>
+                                                <span>Sep 25,2021</span>
+                                                <p></p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
@@ -274,16 +272,14 @@ function getImageCdn($url)
                                 <div class="tab-pane fade" id="Engagement">
                                     <div class="wpo-story-item">
                                         <div class="wpo-story-img">
-                                            <img src="assets/images/story/4.jpg" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/Film-138.jpg')) ?>" alt="">
                                         </div>
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
                                                 <span><img src="assets/images/story/4.png" alt=""></span>
                                                 <h2>Our Engagement</h2>
                                                 <span>Sep 15,2022</span>
-                                                <p>I must explain to you how all this mistaken idea of denouing pleasure
-                                                    and praising pain was born and I will give you com acount of
-                                                    system,the actual teach</p>
+                                                <p></p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
