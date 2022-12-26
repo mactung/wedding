@@ -236,7 +236,7 @@ function getImageCdn($url)
                                 <div class="tab-pane fade" id="Date">
                                     <div class="wpo-story-item">
                                         <div class="wpo-story-img">
-                                            <img src="<?php echo (getImageCdn('assets/images/IMG_0846.JPG')) ?>" alt="">
+                                            <img src="<?php echo (getImageCdn('assets/images/IMG_0846.jpg')) ?>" alt="">
                                         </div>
                                         <div class="wpo-story-content">
                                             <div class="wpo-story-content-inner">
