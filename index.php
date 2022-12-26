@@ -54,6 +54,18 @@ function getImageCdn($url)
     $baseCdnUrl .= $url;
     return $baseCdnUrl . '?v=3';
 }
+
+$path = './myexcel.csv';
+$rows = [];
+$handle = fopen($path, "r");
+while (($row = fgetcsv($handle)) !== false) {
+    $rows[] = $row;
+}
+fclose($handle);
+$messages = [];
+foreach ($rows as $row) {
+    $messages[] =  $row;
+}
 ?>
 
 <body>

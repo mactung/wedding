@@ -10,12 +10,7 @@
     foreach ($rows as $row) {
         $array[] =  $row;
     }
-    $file = fopen($path, 'w');
-    //pass all the form values
-    $array[] = array($_POST['name'], $_POST['guest'], $_POST['message']);
-    foreach ($array as $row) {
-        fputcsv($file, $row);
-    }
-    fclose($file); 
+    var_dump($array);
+    return $array;
     exit();
 ?>
