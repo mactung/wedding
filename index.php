@@ -79,10 +79,10 @@ function getImageCdn($url)
             <section class="wpo-hero-slider wpo-hero-style-2">
                 <div class="wedding-announcement">
                     <div class="couple-text">
-                        <div class="shape-1"><img src="assets/images/slider/shape5.png" alt=""></div>
+                        <!-- <!-- <div class="shape-1"><img src="assets/images/slider/shape5.png" alt=""></div> -->
                         <h2 class="wow slideInUp" data-wow-duration="1s">Mac Tung & Le Thuy</h2>
                         <p class="wow slideInUp" data-wow-duration="1.8s">We Are Getting Married Jan 07,2023</p>
-                        <div class="shape-2"><img src="assets/images/slider/shape6.png" alt=""></div>
+                        <!-- <div class="shape-2"><img src="assets/images/slider/shape6.png" alt=""></div> -->
                     </div>
                 </div>
                 <div class="swiper-container">
