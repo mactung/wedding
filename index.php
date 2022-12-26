@@ -79,7 +79,7 @@ function getImageCdn($url)
             <section class="wpo-hero-slider wpo-hero-style-2">
                 <div class="wedding-announcement">
                     <div class="couple-text">
-                        <!-- <!-- <div class="shape-1"><img src="assets/images/slider/shape5.png" alt=""></div> -->
+                        <!-- <div class="shape-1"><img src="assets/images/slider/shape5.png" alt=""></div> -->
                         <h2 class="wow slideInUp" data-wow-duration="1s">Mac Tung & Le Thuy</h2>
                         <p class="wow slideInUp" data-wow-duration="1.8s">We Are Getting Married Jan 07,2023</p>
                         <!-- <div class="shape-2"><img src="assets/images/slider/shape6.png" alt=""></div> -->
@@ -171,7 +171,6 @@ function getImageCdn($url)
                                         </div>
                                         <div class="couple-text">
                                             <h3>Nguyễn Thị Lệ Thủy</h3>
-
                                         </div>
                                     </div>
                                 </div>
@@ -618,7 +617,7 @@ function getImageCdn($url)
         </footer>
         <!-- end of wpo-site-footer-section -->
         <!-- color-switcher -->
-        <div class="color-switcher-wrap">
+        <!-- <div class="color-switcher-wrap">
             <div class="color-switcher-item">
                 <div class="color-toggle-btn">
                     <i class="fa fa-cog"></i>
@@ -638,7 +637,7 @@ function getImageCdn($url)
                     <li class="btn btn12" id="Button12"></li>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
     </div>
     <!-- end of page-wrapper -->
