@@ -241,7 +241,7 @@ function getImageCdn($url)
                                                 <span><img src="assets/images/story/2.png" alt=""></span>
                                                 <h2>Buổi hẹn đầu tiên</h2>
                                                 <span>Tháng 3 ,2017</span>
-                                                <p>Tôi mua được vé đi Festival, không ai đi với tôi nên tôi mời em đi.</p>
+                                                <p>Tôi mua được vé đi Festival, không ai đi với tôi nên tôi mời em đi. Ngày ấy em mà không đi thì chắc bây giờ tôi ế.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
