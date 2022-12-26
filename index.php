@@ -261,7 +261,7 @@ function getImageCdn($url)
                                                 <span><img src="assets/images/story/3.png" alt=""></span>
                                                 <h2>Marige Proposal</h2>
                                                 <span>Sep 25,2021</span>
-                                                <p>Vào một ngày đầu thu, Em bảo em thích đồng hồ. Tôi trở em vào Hoàng Hà mua 1 cái apple watch, thế là tôi cầu hôn với em.</p>
+                                                <p>Vào một ngày đầu thu, Em bảo em thích đồng hồ. Tôi lôi em vào Hoàng Hà mua 1 cái apple watch, thế là tôi cầu hôn với em.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
