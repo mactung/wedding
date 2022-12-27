@@ -230,7 +230,7 @@ foreach ($rows as $row) {
                                                 <span><img src="assets/images/story/1.png" alt=""></span>
                                                 <h2>Lần đầu gặp gỡ</h2>
                                                 <span>Tháng 9, 2010</span>
-                                                <p>Tôi gặp em vào một chiều thu se se lạnh. Hôm ấy, tôi chép bài Hóa của em. Em được 8 còn tôi thì 9.</p>
+                                                <p>Bước chân vào cấp 3, 2 đứa học chung 1 lớp, được xếp ngồi chung 1 bàn. Những lần làm bài kiểm tra đã kéo chúng tôi đoàn kết như một. Những lần hóng hớt và cùng nhau bình luận về câu chuyện bi hài của chúng bạn, cứ thế ngồi cười hô hô ha ha với nhau. Rồi có những tối bỏ bê học hành cùng nhau nghe XoneFM, nhắn tin tám chuyện bằng chiếc nokia cục gạch, chỉ để hỏi đối phương đang làm gì, nghe bài gì, rồi cứ thế lặn mất dần mất đều. Thời niên thiếu chúng tôi đã quý mến nhau như thế.</p>
                                                 <div class="border-shape">
                                                     <img src="<?php echo (getImageCdn('assets/images/story/shape.jpg')) ?>" alt="">
                                                 </div>
@@ -248,7 +248,7 @@ foreach ($rows as $row) {
                                                 <span><img src="assets/images/story/2.png" alt=""></span>
                                                 <h2>Buổi hẹn đầu tiên</h2>
                                                 <span>Tháng 3 ,2017</span>
-                                                <p>Tôi mua được vé đi Festival, không ai đi với tôi nên tôi mời em đi. Ngày ấy em mà không đi thì chắc bây giờ tôi ế.</p>
+                                                <p>Đó là vào mùa hè năm 2 đại học, tôi có 3 chiếc vé đi Festival, tôi rủ anh trai và cô ấy cùng đi, nhưng cuối cùng tôi được ông anh trai tốt bụng bỏ bom, chỉ có 2 chúng tôi đi đi với nhau. Sau buổi đi chơi hôm đó, tôi đã nhen nhóm tình cảm với cô ấy, và sau đó liên tục là những buổi cafe, xem film, những tin nhắn đến tối muộn của 2 đứa. Tình yêu đã triển nở để chúng tôi bên nhau suốt 6 năm qua với đủ các cung bậc cảm xúc hỉ, nộ, ái, ố. Cùng nhau trải qua những khó khăn để chúng tôi biết trân quý nhau hơn và cần nhau hơn.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
@@ -266,7 +266,7 @@ foreach ($rows as $row) {
                                                 <span><img src="assets/images/story/3.png" alt=""></span>
                                                 <h2>Cầu hôn</h2>
                                                 <span>Tháng 9 25,2021</span>
-                                                <p></p>
+                                                <p>Cảm giác hạnh phúc và bình yên nhất chính là được ôm trọn người mình yêu vào buổi tối và nhìn thấy họ đầu tiên vào buổi sáng. Sau khoảng thời gian dài gắn bó, chúng tôi cảm thấy không thể thiếu nhau mỗi ngày, nên tôi đã cầu hôn cô ấy, để cô ấy luôn là cái gối ôm 37 độ cùng tôi đi ngủ và thức dậy mỗi sáng.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
@@ -284,7 +284,7 @@ foreach ($rows as $row) {
                                                 <span><img src="assets/images/story/4.png" alt=""></span>
                                                 <h2>Kết hôn</h2>
                                                 <span>Tháng 1 07,2023</span>
-                                                <p>Yêu lâu quá rồi nên cưới.</p>
+                                                <p>Vượt qua hàng ngàn chân dài xinh đẹp vây quanh, cô ấy đã trở thành vợ của tôi. Xin lỗi các em nhưng anh đã là người có vợ.. Chúc cho cuộc sống hôn nhân của chúng mình luôn cơm lành canh ngọt, yêu thương nhau thắm thiết. Ngày hôm nay chính thức "vơ lấy tội". Mọi người cùng chúc mừng cho chúng tôi nhé!</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
