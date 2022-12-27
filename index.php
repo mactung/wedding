@@ -556,7 +556,7 @@ foreach ($rows as $row) {
                                     <ul>
                                         <li>Thứ 5, 05/01/2023 <br>
                                             19:00 - 21:00</li>
-                                        <li>Nhà thờ giáo sứ Phùng Khoang</li>
+                                        <li>Nhà thờ giáo xứ Phùng Khoang</li>
 
                                         <li> <a target="_blank" href="https://goo.gl/maps/G1zeqSQfuLanSwwz6">Google map</a></li>
                                     </ul>
