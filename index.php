@@ -250,7 +250,7 @@ foreach ($rows as $row) {
                                                 <span><img src="assets/images/story/2.png" alt=""></span>
                                                 <h2>Buổi hẹn đầu tiên</h2>
                                                 <span>Tháng 3 ,2017</span>
-                                                <p>Đó là vào mùa hè năm 2 đại học, tôi có 3 chiếc vé đi Festival, tôi rủ anh trai và cô ấy cùng đi, nhưng cuối cùng tôi được ông anh trai tốt bụng bỏ bom, chỉ có 2 chúng tôi đi đi với nhau. Sau buổi đi chơi hôm đó, tôi đã nhen nhóm tình cảm với cô ấy, và sau đó liên tục là những buổi cafe, xem film, những tin nhắn đến tối muộn của 2 đứa. Tình yêu đã triển nở để chúng tôi bên nhau suốt 6 năm qua với đủ các cung bậc cảm xúc hỉ, nộ, ái, ố. Cùng nhau trải qua những khó khăn để chúng tôi biết trân quý nhau hơn và cần nhau hơn.</p>
+                                                <p>Đó là vào mùa hè năm 2 đại học, tôi có 3 chiếc vé đi Festival, tôi rủ anh trai và cô ấy cùng đi, nhưng cuối cùng tôi được ông anh trai tốt bụng bỏ bom, chỉ có 2 chúng tôi đi với nhau. Sau buổi đi chơi hôm đó, tôi đã nhen nhóm tình cảm với cô ấy, và sau đó liên tục là những buổi cafe, xem film, những tin nhắn đến tối muộn của 2 đứa. Tình yêu đã triển nở để chúng tôi bên nhau suốt 6 năm qua với đủ các cung bậc cảm xúc hỉ, nộ, ái, ố. Cùng nhau trải qua những khó khăn để chúng tôi biết trân quý nhau hơn và cần nhau hơn.</p>
                                                 <div class="border-shape">
                                                     <img src="assets/images/story/shape.jpg" alt="">
                                                 </div>
@@ -494,7 +494,7 @@ foreach ($rows as $row) {
                                 <input type="text" class="form-control" name="message" id="message" placeholder="Lời nhắn">
                             </div>
                             <div class="submit-area">
-                                <button type="submit" class="theme-btn-s3">Sent</button>
+                                <button type="submit" class="theme-btn-s3">Gửi</button>
                                 <div id="c-loader">
                                     <i class="ti-reload"></i>
                                 </div>
