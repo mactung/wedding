@@ -472,6 +472,13 @@ foreach ($rows as $row) {
                                 <input type="text" class="form-control" name="name" id="name" placeholder="Họ và Tên">
                             </div>
                             <div>
+                                <select name="side" class="form-control">
+                                    <option disabled="disabled" selected>Bạn là khách của bên nào? </option>
+                                    <option>Nhà trai</option>
+                                    <option>Nhà gái</option>
+                                </select>
+                            </div>
+                            <div>
                                 <select name="guest" class="form-control">
                                     <option disabled="disabled" selected>Số lượng người</option>
                                     <option>01</option>
