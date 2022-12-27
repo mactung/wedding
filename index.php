@@ -159,6 +159,7 @@ foreach ($rows as $row) {
                                         </div>
                                         <div class="couple-text">
                                             <h3>Mạc Trần Tùng</h3>
+                                            <p>Có người nói rằng hôn nhân cản trở sự lãng mạn. Không nghi ngờ gì. Mỗi khi bạn có một cuộc lãng mạn, thế nào vợ bạn cũng sẽ can thiệp.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,6 +180,7 @@ foreach ($rows as $row) {
                                         </div>
                                         <div class="couple-text">
                                             <h3>Nguyễn Thị Lệ Thủy</h3>
+                                            <p>Sau mỗi thành công của người chồng luôn có hình bóng người vợ kề bên.</p>
                                         </div>
                                     </div>
                                 </div>
