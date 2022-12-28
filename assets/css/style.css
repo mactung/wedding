@@ -5090,12 +5090,32 @@ wpo-hero-slider-s3
   background: transparent url(../images/select-icon2.png) no-repeat calc(100% - 15px) center;
   position: relative;
 }
-.wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area .select.last {
+.wpo-contact-section .wpo-contact-section-wrapper .message-wpo-contact-form-area .select.last {
   margin-bottom: 50px;
 }
-.wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area .submit-area {
+.wpo-contact-section .wpo-contact-section-wrapper .message-wpo-contact-form-area .submit-area {
   margin-top: 40px;
   text-align: center;
+}
+
+.wpo-contact-section .wpo-contact-section-wrapper .message-wpo-contact-form-area {
+  padding: 60px 120px;
+  border: 1px solid #a3888c;
+  position: relative;
+  z-index: 99;
+  border-radius: 322px;
+}
+
+@media (max-width: 1200px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .message-wpo-contact-form-area {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  .wpo-contact-section .wpo-contact-section-wrapper .wpo-contact-form-area {
+    padding: 50px 15px;
+  }
 }
 
 /* 3.7 wpo-event-section */
