@@ -483,6 +483,7 @@ foreach ($rows as $row) {
                             <div>
                                 <select name="guest" class="form-control">
                                     <option disabled="disabled" selected>Số lượng người</option>
+                                    <option>00</option>
                                     <option>01</option>
                                     <option>02</option>
                                     <option>03</option>
