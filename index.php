@@ -521,7 +521,7 @@ foreach ($rows as $row) {
         <section class="wpo-contact-section">
             <div class="container">
                 <div class="wpo-contact-section-wrapper" style="max-width: 100%">
-                    <div class="wpo-contact-form-area message-wpo-contact-form-area" style="padding: 60px 40px">
+                    <div class="wpo-contact-form-area message-wpo-contact-form-area">
                         <div class=" wpo-section-title">
                             <div class="section-title-img">
                                 <img src="assets/images/section-title.png" alt="">
