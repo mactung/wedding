@@ -538,7 +538,7 @@ foreach ($rows as $row) {
                         </div>
                         <div style="height: 280px; overflow:scroll">
                             <?php
-                            foreach ($messages as $message) {
+                            foreach (array_reverse($messages) as $message) {
                                 echo ('<div>');
                                 echo ('<strong>' . $message[0] . ': ' . '</strong>');
                                 echo ($message[3]);
