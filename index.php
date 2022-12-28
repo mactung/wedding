@@ -516,113 +516,143 @@ foreach ($rows as $row) {
             </div>
         </section>
         <!-- end of wpo-contact-section -->
-        <!-- start wpo-event-section -->
-        <section class="wpo-event-section section-padding" id="event">
+
+        <!-- start of wpo-contact-section -->
+        <section class="wpo-contact-section">
+            <div class="container">
+                <div class="wpo-contact-section-wrapper" style="max-width: 100%">
+                    <div class="wpo-contact-form-area" style="padding: 60px 40px">
+                        <div class=" wpo-section-title">
+                        <div class="section-title-img">
+                            <img src="assets/images/section-title.png" alt="">
+                        </div>
+                        <h2>Lời nhắn</h2>
+                    </div>
+                    <div style="height: 280px; overflow:scroll">
+                        <?php
+                        foreach ($messages as $message) {
+                            echo ('<div>');
+                            echo ('<strong>' . $message[0] . ': ' . '</strong>');
+                            echo ($message[3]);
+                            echo('<hr>');
+                            echo ('</div>');                        
+                        }
+                        ?>
+                    </div>
+                    <div class="border-style"></div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <!-- end of wpo-contact-section -->
+
+    <!-- start wpo-event-section -->
+    <section class="wpo-event-section section-padding" id="event">
+        <div class="container">
+            <div class="row">
+                <div class="wpo-section-title">
+                    <div class="section-title-img">
+                        <img src="<?php echo (getImageCdn('assets/images/section-title2.png')); ?>" alt="">
+                    </div>
+                    <h2>Các sự kiện</h2>
+                </div>
+            </div>
+            <div class="wpo-event-wrap">
+                <div class="row">
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="<?php echo (getImageCdn('assets/images/event/3.jpg')) ?>" alt="">
+                            </div>
+                            <div class="wpo-event-text">
+                                <h2>Ăn hỏi</h2>
+                                <ul>
+                                    <li>Thứ 5, 05/01/2023 <br>
+                                        8:00 AM– 11:30 AM</li>
+                                    <li>Ngõ 233 Phùng Khoang, TX, HN</li>
+
+                                    <li> <a target="_blank" href="https://goo.gl/maps/HXmNeodavE4zKWya8">Google map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="<?php echo (getImageCdn('assets/images/320846435_2988930307919460_2749564314569954684_n-2.jpg')) ?>" alt="">
+                            </div>
+                            <div class="wpo-event-text">
+                                <h2>Lễ cưới</h2>
+                                <ul>
+                                    <li>Thứ 5, 05/01/2023 <br>
+                                        19:00 - 21:00</li>
+                                    <li>Nhà thờ giáo xứ Phùng Khoang</li>
+
+                                    <li> <a target="_blank" href="https://goo.gl/maps/G1zeqSQfuLanSwwz6">Google map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-event-item">
+                            <div class="wpo-event-img">
+                                <img src="<?php echo (getImageCdn('assets/images/event/1.jpg')) ?>" alt="">
+                            </div>
+                            <div class="wpo-event-text">
+                                <h2>Tiệc cưới</h2>
+                                <ul>
+                                    <li>Thứ 7, 07/01/2023 <br>
+                                        11:00 – 14:30</li>
+                                    <li>Tầng 3, 229 Tây Sơn, Đống Đa, HN</li>
+
+                                    <li> <a target="_blank" href="https://goo.gl/maps/Z1nGA6VfY8RLYQiw8">Google map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end container -->
+    </section>
+    <!-- end wpo-event-section -->
+
+    <!-- start of wpo-site-footer-section -->
+    <footer class="wpo-site-footer">
+        <div class="wpo-upper-footer">
             <div class="container">
                 <div class="row">
-                    <div class="wpo-section-title">
-                        <div class="section-title-img">
-                            <img src="<?php echo (getImageCdn('assets/images/section-title2.png')); ?>" alt="">
-                        </div>
-                        <h2>Các sự kiện</h2>
-                    </div>
-                </div>
-                <div class="wpo-event-wrap">
-                    <div class="row">
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-event-item">
-                                <div class="wpo-event-img">
-                                    <img src="<?php echo (getImageCdn('assets/images/event/3.jpg')) ?>" alt="">
-                                </div>
-                                <div class="wpo-event-text">
-                                    <h2>Ăn hỏi</h2>
-                                    <ul>
-                                        <li>Thứ 5, 05/01/2023 <br>
-                                            8:00 AM– 11:30 AM</li>
-                                        <li>Ngõ 233 Phùng Khoang, TX, HN</li>
-
-                                        <li> <a target="_blank" href="https://goo.gl/maps/HXmNeodavE4zKWya8">Google map</a></li>
-                                    </ul>
-                                </div>
+                    <div class="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="widget wpo-service-link-widget">
+                            <div class="widget-title">
+                                <h3>Contact </h3>
                             </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-event-item">
-                                <div class="wpo-event-img">
-                                    <img src="<?php echo (getImageCdn('assets/images/320846435_2988930307919460_2749564314569954684_n-2.jpg')) ?>" alt="">
-                                </div>
-                                <div class="wpo-event-text">
-                                    <h2>Lễ cưới</h2>
-                                    <ul>
-                                        <li>Thứ 5, 05/01/2023 <br>
-                                            19:00 - 21:00</li>
-                                        <li>Nhà thờ giáo xứ Phùng Khoang</li>
-
-                                        <li> <a target="_blank" href="https://goo.gl/maps/G1zeqSQfuLanSwwz6">Google map</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col col-lg-4 col-md-6 col-12">
-                            <div class="wpo-event-item">
-                                <div class="wpo-event-img">
-                                    <img src="<?php echo (getImageCdn('assets/images/event/1.jpg')) ?>" alt="">
-                                </div>
-                                <div class="wpo-event-text">
-                                    <h2>Tiệc cưới</h2>
-                                    <ul>
-                                        <li>Thứ 7, 07/01/2023 <br>
-                                            11:00 – 14:30</li>
-                                        <li>Tầng 3, 229 Tây Sơn, Đống Đa, HN</li>
-
-                                        <li> <a target="_blank" href="https://goo.gl/maps/Z1nGA6VfY8RLYQiw8">Google map</a></li>
-                                    </ul>
-                                </div>
+                            <div class="contact-ft">
+                                <ul>
+                                    <li><i class="fi flaticon-email"></i>mactrantung@gmail.com</li>
+                                    <li><i class="fi flaticon-phone-call"></i>0973.222.382</li>
+                                    <li><i class="fi flaticon-maps-and-flags"></i>Tầng 3, 229 Tây Sơn, Đống Đa, Hà Nội
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div> <!-- end container -->
-        </section>
-        <!-- end wpo-event-section -->
-
-        <!-- start of wpo-site-footer-section -->
-        <footer class="wpo-site-footer">
-            <div class="wpo-upper-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
-                            <div class="widget wpo-service-link-widget">
-                                <div class="widget-title">
-                                    <h3>Contact </h3>
-                                </div>
-                                <div class="contact-ft">
-                                    <ul>
-                                        <li><i class="fi flaticon-email"></i>mactrantung@gmail.com</li>
-                                        <li><i class="fi flaticon-phone-call"></i>0973.222.382</li>
-                                        <li><i class="fi flaticon-maps-and-flags"></i>Tầng 3, 229 Tây Sơn, Đống Đa, Hà Nội
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- end container -->
-            </div>
-            <div class="wpo-lower-footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col col-xs-12">
-                            <p class="copyright"> &copy; 2023 Wedding Template. Copy By MacTung. All Rights Reserved.</p>
-                        </div>
+        </div>
+        <div class="wpo-lower-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-xs-12">
+                        <p class="copyright"> &copy; 2023 Wedding Template. Copy By MacTung. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- end of wpo-site-footer-section -->
-        <!-- color-switcher -->
-        <!-- <div class="color-switcher-wrap">
+        </div>
+    </footer>
+    <!-- end of wpo-site-footer-section -->
+    <!-- color-switcher -->
+    <!-- <div class="color-switcher-wrap">
             <div class="color-switcher-item">
                 <div class="color-toggle-btn">
                     <i class="fa fa-cog"></i>
