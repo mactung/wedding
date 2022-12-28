@@ -481,6 +481,13 @@ foreach ($rows as $row) {
                                 </select>
                             </div>
                             <div>
+                                <select name="yes-no" class="form-control">
+                                    <option disabled="disabled" selected>Bạn có thể tham gia lễ cưới không?</option>
+                                    <option>Tiếc quá! Mình không đi được rồi.</option>
+                                    <option>Phải đi chứ</option>
+                                </select>
+                            </div>
+                            <div>
                                 <select name="guest" class="form-control">
                                     <option disabled="disabled" selected>Số lượng người</option>
                                     <option>00</option>

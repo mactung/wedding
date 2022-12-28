@@ -12,7 +12,7 @@
     }
     $file = fopen($path, 'w');
     //pass all the form values
-    $array[] = array($_POST['name'], $_POST['side'], $_POST['guest'], $_POST['message']);
+    $array[] = array($_POST['name'], $_POST['side'], $_POST['guest'], $_POST['message'], $_POST['yes-no']);
     foreach ($array as $row) {
         fputcsv($file, $row);
     }
