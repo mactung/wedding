@@ -21853,7 +21853,7 @@
         setFinalDate: function (a) {
             // this.finalDate = b(a);
             var newYear = new Date(); 
-            newYear = new Date(newYear.getFullYear() + 1, 0, 7, 11); 
+            newYear = new Date(newYear.getFullYear(), 0, 7, 11); 
             this.finalDate = newYear;
         },
         update: function () {
